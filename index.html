@@ -9,8 +9,19 @@
             .contenido{
                 display: flex;
                 flex-wrap: nowrap;
+
+            }
+            .ejemplos{
+                width: 300px;
+                height: 200px;
+                padding-right: 5%;
+            }
+            #texto{
+                display: flex;
+                flex-wrap: nowrap;
                 text-shadow: 2px 0 #A85C00, -2px 0 #A85C00, 0 2px #A85C00, 0 -2px #A85C00,
-             1px 1px #A85C00, -1px -1px #A85C00, 1px -1px #A85C00, -1px 1px #A85C00;;
+             1px 1px #A85C00, -1px -1px #A85C00, 1px -1px #A85C00, -1px 1px #A85C00;
+                padding-left: 5%;
 
             }
             .foto{
@@ -27,15 +38,23 @@
                 margin-right: 10%;
             }
             h2{
+                font-weight: bold;
+                font-size: 2em;
+            }
+            h2,h3{
                 justify-self: center;
             }
             a{
                 color: white;
             }
+            .escrito{
+                padding-left: 15%;
+                padding-right: 5%;
+            }
         </style>
     </head>
     <body>
-        <div class="contenido">
+        <div class="contenido" id="texto">
             <div>
                 <img class="foto" src="resources/yo.jpg">
                 <div class="contenido">
@@ -51,7 +70,7 @@
                     <a href="https://www.linkedin.com/in/juan-n%C3%A9stor-franco-bab376386?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bb%2BAVj5%2FxTF2Orsk8PnN2gw%3D%3D" target="_blank">Linkedin</a>
                 </div>
             </div>
-            <div>
+            <div class="escrito">
                 <h2>Sobre mí</h2>
                 <p>
                     Recien graduado de DAM (Desarrollo de Aplicaciones Multiplataforma), teniendo tambien el título de ASIR(Administración de Sistemas Informáticos en Red), Y hacinedo actualmente la especialización en IA y Big Data.
@@ -60,8 +79,20 @@
                 <h2>Proyectos</h2>
                 <h3>Pompa</h3>
                 <p>
-                    Pompa es un juego simple en 3D desarrollado en Unity, donde la idea es mover el plano para hacer que una pelota llegue a la meta, así como jugarías con el tapon de un pompero.
+                    Pompa es un juego simple en 3D desarrollado en Unity, y programado en C#, donde la idea es mover el plano para hacer que una pelota llegue a la meta, así como jugarías con el tapon de un pompero.
                 </p>
+                <h3>OneShot Survivor</h3>
+                <div class="contenido">
+                    <img src="resources/survivor1.png" class="ejemplos">
+                    <div>
+                        <p>
+                            Juego 2D desarrollado en Unity, cuyo objetivo es sobrevivir cuanto más tiempo se pueda antes de que uno de los enemigos te alcance. Con 3 mapas y un selector de dificultad. Toda la parte visual corre a cuenta de Assets de la store de Unity.
+                        </p><br/>
+                        <img src="resources/survivor2.png" class="ejemplos">
+                    </div>
+                </div>
+                
+                
                 <h3>Laberinto en Java</h3>
                 <p>
                     Juego programado en java, usando como interfaz gráfica swing. La ídea de este programa era imitar un juego tipo RPG muy cortito (más o menos 10 min.)
