@@ -1,0 +1,57 @@
+            img{
+                border-radius: 10px;
+            }
+            body{
+                background-color: #DEA866;
+                color: white;
+            }
+            .contenido{
+                display: flex;
+                flex-wrap: nowrap;
+
+            }
+            .ejemplos{
+                width: 350px;
+                height: 250px;
+                padding-right: 5%;
+            }
+            .ejemplos.dos{
+                width: 300px;
+                height: 200px;
+                padding-left: 15%;
+            }
+            #texto{
+                display: flex;
+                flex-wrap: nowrap;
+                text-shadow: 2px 0 #A85C00, -2px 0 #A85C00, 0 2px #A85C00, 0 -2px #A85C00,
+             1px 1px #A85C00, -1px -1px #A85C00, 1px -1px #A85C00, -1px 1px #A85C00;
+                padding-left: 5%;
+
+            }
+            .foto{
+                border-radius: 150px;
+                border-style: solid;
+                border-color: #A85C00;
+                width: 250px;
+                height: 250px;
+                margin-right: 10%;
+            }
+            .contacto{
+                width: 30px;
+                height: 30px;
+                margin-right: 10%;
+            }
+            h2{
+                font-weight: bold;
+                font-size: 2em;
+            }
+            h2,h3{
+                text-align: center;
+            }
+            a{
+                color: white;
+            }
+            .escrito{
+                padding-left: 15%;
+                padding-right: 5%;
+            }
