@@ -4,11 +4,11 @@
             body{
                 background-color: #DEA866;
                 color: white;
+                margin-top: 100px;
             }
             .contenido{
                 display: flex;
                 flex-wrap: nowrap;
-
             }
             .ejemplos{
                 width: 350px;
@@ -26,7 +26,6 @@
                 text-shadow: 2px 0 #A85C00, -2px 0 #A85C00, 0 2px #A85C00, 0 -2px #A85C00,
              1px 1px #A85C00, -1px -1px #A85C00, 1px -1px #A85C00, -1px 1px #A85C00;
                 padding-left: 5%;
-
             }
             .foto{
                 border-radius: 150px;
@@ -52,6 +51,6 @@
                 color: white;
             }
             .escrito{
-                padding-left: 15%;
-                padding-right: 5%;
+                padding-left: 5%;
+                padding-right: 25%;
             }
